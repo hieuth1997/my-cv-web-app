@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./styles.scss";
 import PropTypes from "prop-types";
 import Company from "./Company";
 Experience.propTypes = {};
@@ -58,7 +58,7 @@ function Experience(props) {
     );
   });
   return (
-    <div className="education">
+    <section className="experience">
       <div className="grid wide"></div>
       <div className="row">
         <div className="col l-12 m-12">
@@ -66,7 +66,7 @@ function Experience(props) {
         </div>
         {companiesUI}
       </div>
-    </div>
+    </section>
   );
 }
 

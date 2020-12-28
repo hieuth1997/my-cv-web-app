@@ -1,0 +1,39 @@
+.skill {
+  padding-top: 4rem;
+  border-bottom: 1px solid var(--gray-color);
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  .heading {
+    margin-bottom: 4rem;
+  }
+  .title {
+    color: #34495e;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 2rem;
+    font-family: "Saira Extra Condensed", sans-serif;
+  }
+  .icon__wrappper {
+    display: flex;
+    flex-wrap: wrap;
+    .icon__item {
+      padding: 10px;
+      font-size: 8rem;
+    }
+  }
+  .desc__item {
+    display: flex;
+    .icon {
+      color: var(--sea-color);
+      font-size: 2rem;
+      padding: 0;
+      margin-right: 10px;
+    }
+    .education__desc {
+      font-size: 1.5rem;
+      line-height: 1;
+      margin: 0.5rem 0;
+    }
+  }
+}

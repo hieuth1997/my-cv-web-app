@@ -18,7 +18,7 @@ Profile.propTypes = {};
 
 function Profile(props) {
   return (
-    <div className="start">
+    <section className="start">
       <div className=" grid wide">
         <div className="row">
           <div className="col l-12 m-12 c-12">
@@ -137,7 +137,7 @@ function Profile(props) {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

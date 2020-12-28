@@ -8,7 +8,7 @@ Education.propTypes = {};
 
 function Education(props) {
   return (
-    <div className="education">
+    <section className="education">
       <div className="grid wide">
         <div className="row">
           <div className="col l-12 m-12">
@@ -61,6 +61,15 @@ function Education(props) {
                 have had <strong>685/990 TOEIC</strong> Certificate
               </p>
             </div>
+            <div className="desc__item">
+              <div className="icon">
+                <FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
+              </div>
+              <p className="education__desc">
+                I really enjoy my school, where I make new friends and we study
+                together.I always proud when I am a UITer{" "}
+              </p>
+            </div>
           </div>
           <div className="col c-12 l-4 m-12">
             <div className="time">
@@ -69,7 +78,7 @@ function Education(props) {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
