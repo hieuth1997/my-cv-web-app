@@ -57,8 +57,8 @@ function Education(props) {
               </div>
               <p className="education__desc">
                 I have received 2 encouragement scholarship &#40;1 and 2
-                semester&#41; my GPA <strong>7.2/10.</strong> Besides, I have
-                had <strong>685/990 TOEIC</strong> Certificate
+                semester&#41; my final GPA <strong>7/10.</strong> Besides, I
+                have had <strong>685/990 TOEIC</strong> Certificate
               </p>
             </div>
           </div>
