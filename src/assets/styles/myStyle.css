@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200;500;600&display=swap");
+
+:root {
+  --text-color: #34495e;
+  --white-color: #fff;
+  --black-color: #000;
+  --gray-color: #8d939a;
+  --blue-color: #28699a;
+  --sea-color: #3280bc;
+  --high-line-color: #079992;
+}
+* {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem !important;
+  font-family: "RoboTo", sans-serif;
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+/* px = diem anh thuc */
+
+/* base */
+h1 {
+  margin: 0;
+  color: #333;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+p {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin: 1.5rem 0;
+}
+.space {
+  display: block;
+}
+.heading {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+/* mobile and tablet */
+@media only screen and (max-width: 46.1875em) {
+}
+/* mobile < 740 px */
+@media only screen and (max-width: 64em) {
+}
+/* tablet >740px and < 1024px  */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+/* laptop > 1024px and < 768px
+@media only screen and (min-width:64em)
+{
+
+} */
