@@ -17,9 +17,9 @@ import {
 } from "react-icons/di";
 import { TiArrowRightThick } from "react-icons/ti";
 
-Education.propTypes = {};
+Skill.propTypes = {};
 
-function Education(props) {
+function Skill(props) {
   return (
     <section className="skill">
       <div className="grid wide">
@@ -138,4 +138,4 @@ function Education(props) {
   );
 }
 
-export default Education;
+export default Skill;
