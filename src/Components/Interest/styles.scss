@@ -1,0 +1,36 @@
+.interest {
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+  .heading {
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+  }
+  .desc__item {
+    display: flex;
+    .icon {
+      color: var(--sea-color);
+      font-size: 3rem;
+    }
+  }
+  .interest__desc {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+  }
+  .img {
+    display: flex;
+    .img__item {
+      width: 452px;
+      height: 236px;
+      padding: 1rem;
+    }
+  }
+  .rightImg {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    .rightImg__item {
+      height: 100%;
+      width: 250px;
+    }
+  }
+}
