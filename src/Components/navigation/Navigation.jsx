@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.scss";
 import avatar from "./../../assets/images/image/avatar.JPG";
+import * as Scroll from "react-scroll";
+import { Link, Element } from "react-scroll";
 
 function Navigation() {
   return (
@@ -12,7 +14,101 @@ function Navigation() {
           </div>
         </div>
 
-        <div className="nav__wrapper"></div>
+        <div className="nav__wrapper">
+          <ul className="nav_bar">
+            <li className="nav__item">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="nav__link"
+              >
+                ABOUT
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link
+                className="nav__link"
+                activeClass="active"
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                EDUCATION
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link
+                activeClass="active"
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="nav__link"
+              >
+                EXPERIENCE
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link
+                activeClass="active"
+                className="nav__link"
+                to="skill"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Skills
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link
+                activeClass="active"
+                to="project"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="nav__link"
+              >
+                Projects
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link
+                activeClass="active"
+                to="interest"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="nav__link"
+              >
+                INTERESTS
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link
+                activeClass="active"
+                to="end"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="nav__link"
+              >
+                The End
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

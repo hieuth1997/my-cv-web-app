@@ -2,8 +2,19 @@
   padding-top: 4rem;
   border-bottom: 1px solid var(--gray-color);
   margin-bottom: 3rem;
-  text-transform: uppercase;
   .heading {
     margin-bottom: 4rem;
+    text-transform: uppercase;
+  }
+  .desc__item {
+    display: flex;
+    .icon {
+      color: var(--sea-color);
+      font-size: 3rem;
+    }
+  }
+  .education__desc {
+    text-transform: normalize;
+    font-size: 1.7rem;
   }
 }

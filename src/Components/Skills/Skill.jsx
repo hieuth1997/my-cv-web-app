@@ -15,7 +15,7 @@ import {
   DiHtml5,
   DiCss3,
 } from "react-icons/di";
-import { TiArrowRightThick } from "react-icons/ti";
+import { TiPin } from "react-icons/ti";
 
 Skill.propTypes = {};
 
@@ -116,19 +116,19 @@ function Skill(props) {
           <p className="title">workflow.</p>
           <div className="desc__item">
             <div className="icon">
-              <TiArrowRightThick></TiArrowRightThick>
+              <TiPin></TiPin>
             </div>
             <p className="education__desc">Git, Bicbucket for Teamwork</p>
           </div>
           <div className="desc__item">
             <div className="icon">
-              <TiArrowRightThick></TiArrowRightThick>
+              <TiPin></TiPin>
             </div>
             <p className="education__desc">Reponsive Web design</p>
           </div>
           <div className="desc__item">
             <div className="icon">
-              <TiArrowRightThick></TiArrowRightThick>
+              <TiPin></TiPin>
             </div>
             <p className="education__desc">Trello, datagram</p>
           </div>
