@@ -44,23 +44,32 @@ function Project(props) {
                 <TiArrowRightThick></TiArrowRightThick>
               </div>
               <p className="education__desc">
-                Building "UIT market"{" "}
+                Building "Web E-commerce "{" "}
                 <a
-                  href="https://github.com/hieuth1997/uit-market-client"
+                  href="https://github.com/hieuth1997/uit-insurance-client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Client site
                 </a>{" "}
-                and{" "}
+                using <strong>NextJS and ExpressJS </strong>
+                (project in School)
+              </p>
+            </div>
+            <div className="desc__item">
+              <div className="icon">
+                <TiArrowRightThick></TiArrowRightThick>
+              </div>
+              <p className="education__desc">
+                Building "CRUD REST API"{" "}
                 <a
-                  href="https://github.com/hieuth1997/uit-market-admin"
+                  href="https://github.com/hieuth1997/uit-market-client"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Admin site
+                  Backend
                 </a>{" "}
-                using <strong>ReactJS </strong>
+                using <strong>ExpressJS </strong>
                 (project by learning)
               </p>
             </div>
@@ -69,49 +78,25 @@ function Project(props) {
                 <TiArrowRightThick></TiArrowRightThick>
               </div>
               <p className="education__desc">
-                Building "UIT market"{" "}
+                Design "real estate "{" "}
                 <a
-                  href="https://github.com/hieuth1997/uit-market-client"
+                  href="https://silvercreekluxuryrealestate.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Client site
+                  Website
                 </a>{" "}
-                and{" "}
-                <a
-                  href="https://github.com/hieuth1997/uit-market-admin"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Admin site
-                </a>{" "}
-                using <strong>ReactJS </strong>
-                (project by learning)
+                using <strong>Web box </strong>
+                (project in Company)
               </p>
             </div>
             <div className="desc__item">
               <div className="icon">
-                <TiArrowRightThick></TiArrowRightThick>
+                <TiSocialGithub></TiSocialGithub>
               </div>
               <p className="education__desc">
-                Building "UIT market"{" "}
-                <a
-                  href="https://github.com/hieuth1997/uit-market-client"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Client site
-                </a>{" "}
-                and{" "}
-                <a
-                  href="https://github.com/hieuth1997/uit-market-admin"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Admin site
-                </a>{" "}
-                using <strong>ReactJS </strong>
-                (project by learning)
+                Others project in my internship program and working but{" "}
+                <strong>Private Internal</strong>
               </p>
             </div>
             <div className="desc__item">

@@ -8,7 +8,7 @@ Company.propTypes = {};
 function Company(props) {
   const { name, link, position, timeserving, description } = props;
   let listText;
-  if (description) {
+  if (description.length) {
     listText = description.map((desc) => {
       return (
         <div className="desc__item" key={desc.id}>

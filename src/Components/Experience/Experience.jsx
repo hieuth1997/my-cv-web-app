@@ -42,6 +42,11 @@ function Experience(props) {
           text:
             "Participate in develop UI Web for company projects using HTML, CSS, REACTJS,FIREBASE ...etc (Private Internal.)",
         },
+        {
+          id: 1,
+          text:
+            "I have gained the teamwork skill, workflow of technology company ",
+        },
       ],
     },
   ];
