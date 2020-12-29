@@ -63,7 +63,7 @@ function Project(props) {
               <p className="education__desc">
                 Building "CRUD REST API"{" "}
                 <a
-                  href="https://github.com/hieuth1997/uit-market-client"
+                  href="https://github.com/hieuth1997/blog-rest-api"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
