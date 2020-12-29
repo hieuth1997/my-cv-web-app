@@ -1,5 +1,9 @@
 .project {
-  padding-top: 4rem;
+  @media print {
+    margin: 0;
+    border: none;
+  }
+  margin-top: 4rem;
   border-bottom: 1px solid var(--gray-color);
   margin-bottom: 3rem;
   .heading {

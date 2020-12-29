@@ -1,9 +1,18 @@
 .interest {
-  padding-top: 4rem;
+  margin-top: 4rem;
   margin-bottom: 3rem;
+  @media print {
+    margin: 0;
+    border: none;
+  }
   .heading {
     margin-bottom: 5rem;
     text-transform: uppercase;
+  }
+  .i-8 {
+    @media print {
+      display: none;
+    }
   }
   .desc__item {
     display: flex;
@@ -25,6 +34,9 @@
     }
   }
   .rightImg {
+    @media print {
+      display: none;
+    }
     display: flex;
     justify-content: center;
     height: 100%;

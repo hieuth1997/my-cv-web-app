@@ -8,14 +8,15 @@ import Skill from "../Components/Skills/Skill";
 import Project from "../Components/Project/Project";
 import Interest from "../Components/Interest/Interest";
 import End from "../Components/End/Interest";
-
+import { Element } from "react-scroll";
+import "./style.scss";
 Cv.propTypes = {};
 
 function Cv(props) {
   return (
     <div>
       <Navigation></Navigation>
-      <div className="content">
+      <div className="body">
         <div className="grid wide">
           <Profile></Profile>
           <Education></Education>

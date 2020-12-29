@@ -22,7 +22,7 @@ function Navigation() {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-50}
                 duration={500}
                 className="nav__link"
               >
@@ -36,8 +36,8 @@ function Navigation() {
                 to="education"
                 spy={true}
                 smooth={true}
-                offset={50}
                 duration={500}
+                offset={-35}
               >
                 EDUCATION
               </Link>
@@ -48,9 +48,9 @@ function Navigation() {
                 to="experience"
                 spy={true}
                 smooth={true}
-                offset={50}
                 duration={500}
                 className="nav__link"
+                offset={-20}
               >
                 EXPERIENCE
               </Link>
@@ -62,8 +62,8 @@ function Navigation() {
                 to="skill"
                 spy={true}
                 smooth={true}
-                offset={50}
                 duration={500}
+                offset={-20}
               >
                 Skills
               </Link>
@@ -74,8 +74,8 @@ function Navigation() {
                 to="project"
                 spy={true}
                 smooth={true}
-                offset={50}
                 duration={500}
+                offset={-20}
                 className="nav__link"
               >
                 Projects
@@ -86,8 +86,8 @@ function Navigation() {
                 activeClass="active"
                 to="interest"
                 spy={true}
+                offset={-20}
                 smooth={true}
-                offset={50}
                 duration={500}
                 className="nav__link"
               >
@@ -100,7 +100,6 @@ function Navigation() {
                 to="end"
                 spy={true}
                 smooth={true}
-                offset={50}
                 duration={500}
                 className="nav__link"
               >

@@ -83,14 +83,14 @@ function Profile(props) {
                   </p>
                 </div>
                 <div className="conclusion__wrapper flex">
-                  <p className="conclusion">Besides, I am a anime fan boy</p>
+                  <p className="conclusion">Besides, I am a anime fan boy </p>
                   <div className="icon anime__icon">
                     <FontAwesomeIcon icon={faDragon}></FontAwesomeIcon>
                   </div>
                   <div className="icon anime__icon">
                     <FontAwesomeIcon icon={faDragon}></FontAwesomeIcon>
                   </div>
-                  <div className="icon ">( ^.^ )</div>
+                  <p className=" "> ( ^.^ )</p>
                   <div className="icon anime__icon">
                     <FontAwesomeIcon icon={faDragon}></FontAwesomeIcon>
                   </div>

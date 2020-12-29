@@ -36,7 +36,7 @@ function Interest(props) {
               <img className="img__item" src={devImage} alt="img-dev"></img>
             </div>
           </div>
-          <div className="col c-12 l-6">
+          <div className="col c-12 l-6 i-8">
             <div className="rightImg">
               <img src={hbImg} alt="hobby" className="rightImg__item" />
             </div>

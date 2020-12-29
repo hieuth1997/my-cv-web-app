@@ -1,7 +1,11 @@
 .skill {
-  padding-top: 4rem;
+  margin-top: 4rem;
   border-bottom: 1px solid var(--gray-color);
   margin-bottom: 3rem;
+  @media print {
+    margin: 0;
+    border: none;
+  }
   text-transform: uppercase;
   .heading {
     margin-bottom: 4rem;

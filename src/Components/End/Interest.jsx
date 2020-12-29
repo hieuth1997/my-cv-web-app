@@ -20,7 +20,9 @@ function End(props) {
             </p>
           </div>
           <div className="col l-12 m-12">
-            <img src={svg} alt="svg" className="thankYou" />
+            <div className="byeImg__wrapper">
+              <img src={svg} alt="svg" className="thankYou" />
+            </div>
           </div>
         </div>
       </div>

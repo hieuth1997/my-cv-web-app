@@ -25,6 +25,8 @@ html {
 /* base */
 section {
   height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1 {
   margin: 0;
@@ -51,6 +53,13 @@ p {
 }
 /* mobile and tablet */
 @media only screen and (max-width: 46.1875em) {
+  html {
+    font-size: 8px;
+    line-height: 1.6rem !important;
+    font-family: "RoboTo", sans-serif;
+    box-sizing: border-box;
+    color: var(--text-color);
+  }
 }
 /* mobile < 740 px */
 @media only screen and (max-width: 64em) {

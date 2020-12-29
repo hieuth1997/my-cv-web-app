@@ -1,8 +1,13 @@
 .end {
-  padding-top: 4rem;
+  margin-top: 4rem;
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
+  @media print {
+    margin: 0;
+    border: none;
+    align-items: flex-start;
+  }
   .heading {
     margin-bottom: 5rem;
     text-transform: uppercase;
@@ -30,12 +35,16 @@
     display: flex;
     justify-content: center;
     height: 100%;
+
     .rightImg__item {
       height: 100%;
       width: 250px;
     }
   }
   .thankYou {
+    @media print {
+      display: none;
+    }
     color: var(--sea-color);
 
     filter: invert(43%) sepia(61%) saturate(560%) hue-rotate(163deg)
