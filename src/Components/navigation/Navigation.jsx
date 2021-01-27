@@ -1,8 +1,8 @@
-import React from "react";
-import "./style.scss";
-import avatar from "./../../assets/images/image/avatar.JPG";
-import * as Scroll from "react-scroll";
-import { Link, Element } from "react-scroll";
+import React from 'react';
+import './style.scss';
+import avatar from './../../assets/images/image/avatar.JPG';
+import * as Scroll from 'react-scroll';
+import { Link, Element } from 'react-scroll';
 
 function Navigation() {
   return (
@@ -26,7 +26,7 @@ function Navigation() {
                 duration={500}
                 className="nav__link"
               >
-                ABOUT
+                PROFILE
               </Link>
             </li>
             <li className="nav__item">

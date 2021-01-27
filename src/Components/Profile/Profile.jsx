@@ -1,19 +1,19 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./styles.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './styles.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faAddressCard,
   faDragon,
   faMapMarkedAlt,
-} from "@fortawesome/free-solid-svg-icons";
+} from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
   faGithub,
   faNodeJs,
   faReact,
   faTelegram,
-} from "@fortawesome/free-brands-svg-icons";
+} from '@fortawesome/free-brands-svg-icons';
 Profile.propTypes = {};
 
 function Profile(props) {
@@ -25,7 +25,7 @@ function Profile(props) {
             <div className="about">
               <div className="about__wrapper">
                 <h1 className="name__item">
-                  {" "}
+                  {' '}
                   NGUYEN TRONG<span> HIEU</span>
                 </h1>
                 <div className="position__wrapper">
@@ -46,14 +46,14 @@ function Profile(props) {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      {" "}
-                      hieuth1997@gmail.com{" "}
+                      {' '}
+                      hieuth1997@gmail.com{' '}
                     </a>
                   </p>
                 </div>
                 <div className="intro__wrapper">
                   <p className="introduce__text">
-                    Welcome Employers to visit my CV online .{" "}
+                    Welcome Employers to visit my CV online .{' '}
                   </p>
                   <p className="emphasize">
                     "Everything you can imagine is real. Just alway imagine :))"
@@ -66,9 +66,9 @@ function Profile(props) {
                   <p className="backend__text">
                     <strong>Back-End:</strong> I'm 4 months experienced with
                     <strong>
-                      {" "}
-                      Javascript,Express,MongoDb,Rest API ..etc
-                    </strong>{" "}
+                      {' '}
+                      Javascript, Express, MongoDb, Rest API ..etc
+                    </strong>{' '}
                     on <strong>NodeJS </strong>
                   </p>
                 </div>
