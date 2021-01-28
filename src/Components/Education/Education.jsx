@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./styles.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './styles.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
 
 Education.propTypes = {};
 
@@ -36,7 +36,7 @@ function Education(props) {
               </div>
               <p className="education__desc">
                 When I was a Student, My university was studied a lot of
-                knowledge in web security, HTTP method... I was feeling really
+                knowledge in web security, HTTP method .etc I was feeling really
                 interested in web development and decided to choose Web
                 programing for my future job
               </p>
@@ -57,8 +57,8 @@ function Education(props) {
               </div>
               <p className="education__desc">
                 I have received 2 encouragement scholarship &#40;1 and 2
-                semester&#41; my final GPA <strong>7/10.</strong> Besides, I
-                have had <strong>685/990 TOEIC</strong> Certificate
+                semester in four years&#41; my final GPA <strong>2.8/4.</strong>{' '}
+                Besides, I have had <strong>685/990 TOEIC</strong> Certificate
               </p>
             </div>
             <div className="desc__item">
@@ -67,7 +67,7 @@ function Education(props) {
               </div>
               <p className="education__desc">
                 I really enjoy my school, where I make new friends and we study
-                together.I always proud when I am a UITer{" "}
+                together.I always proud when I am a UITer{' '}
               </p>
             </div>
           </div>

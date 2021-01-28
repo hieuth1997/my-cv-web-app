@@ -39,7 +39,7 @@ function Profile(props) {
                     <FontAwesomeIcon icon={faMapMarkedAlt}></FontAwesomeIcon>
                   </div>
                   <p className="address__text">
-                    130/26, 9 street number, 9 ward, Go Vap, HCM CITY, 70000 -
+                    130/26, 9 street , 9 ward, Go Vap, HCM CITY, 70000 -
                     <a
                       className="gmail__text"
                       href="mailto:hieuth1997@gmail.com"
@@ -52,9 +52,7 @@ function Profile(props) {
                   </p>
                 </div>
                 <div className="intro__wrapper">
-                  <p className="introduce__text">
-                    Welcome Employers to visit my CV online .{' '}
-                  </p>
+                  <p className="introduce__text">Welcome to my profile </p>
                   <p className="emphasize">
                     "Everything you can imagine is real. Just alway imagine :))"
                   </p>
@@ -69,7 +67,7 @@ function Profile(props) {
                       {' '}
                       Javascript, Express, MongoDb, Rest API ..etc
                     </strong>{' '}
-                    on <strong>NodeJS </strong>
+                    on <strong>NodeJS</strong>
                   </p>
                 </div>
                 <div className="frontend__wrapper flex">
@@ -77,26 +75,10 @@ function Profile(props) {
                     <FontAwesomeIcon icon={faReact}></FontAwesomeIcon>
                   </div>
                   <p className="frontend__text">
-                    <strong>Front-End:</strong> I'm than 1 years experienced in
-                    on <strong>ReactJS library </strong>
+                    <strong>Front-End:</strong> I'm more than 1 years
+                    experienced in on <strong>ReactJS library </strong>
                     using with <strong>Redux, Axios, Ant-design, ..etc</strong>
                   </p>
-                </div>
-                <div className="conclusion__wrapper flex">
-                  <p className="conclusion">Besides, I am a anime fan boy </p>
-                  <div className="icon anime__icon">
-                    <FontAwesomeIcon icon={faDragon}></FontAwesomeIcon>
-                  </div>
-                  <div className="icon anime__icon">
-                    <FontAwesomeIcon icon={faDragon}></FontAwesomeIcon>
-                  </div>
-                  <p className=" "> ( ^.^ )</p>
-                  <div className="icon anime__icon">
-                    <FontAwesomeIcon icon={faDragon}></FontAwesomeIcon>
-                  </div>
-                  <div className="icon anime__icon">
-                    <FontAwesomeIcon icon={faDragon}></FontAwesomeIcon>
-                  </div>
                 </div>
                 <div className="social__wrapper">
                   <a

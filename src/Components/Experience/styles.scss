@@ -7,6 +7,9 @@
     border: none;
     padding: 0;
   }
+  h1 {
+    text-transform: uppercase;
+  }
 
   .university {
     .university__link {
@@ -25,7 +28,7 @@
     font-weight: 700;
     line-height: 1.3;
     font-size: 2rem;
-    font-family: "Saira Extra Condensed", sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
   }
   .desc__item {
     display: flex;

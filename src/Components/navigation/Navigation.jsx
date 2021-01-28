@@ -45,19 +45,6 @@ function Navigation() {
             <li className="nav__item">
               <Link
                 activeClass="active"
-                to="experience"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="nav__link"
-                offset={-20}
-              >
-                EXPERIENCE
-              </Link>
-            </li>
-            <li className="nav__item">
-              <Link
-                activeClass="active"
                 className="nav__link"
                 to="skill"
                 spy={true}
@@ -68,6 +55,20 @@ function Navigation() {
                 Skills
               </Link>
             </li>
+            <li className="nav__item">
+              <Link
+                activeClass="active"
+                to="experience"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav__link"
+                offset={-20}
+              >
+                EXPERIENCE
+              </Link>
+            </li>
+
             <li className="nav__item">
               <Link
                 activeClass="active"
