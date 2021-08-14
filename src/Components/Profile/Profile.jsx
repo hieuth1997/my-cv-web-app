@@ -32,14 +32,18 @@ function Profile(props) {
                   <div className="position__icon">
                     <FontAwesomeIcon icon={faAddressCard}></FontAwesomeIcon>
                   </div>
-                  <p className="position__text">web developer - junier Level</p>
+                  <p className="position__text">
+                    Network Engineer - Software Engineer{' '}
+                    <span className="blue">junior level</span>
+                  </p>
                 </div>
                 <div className="address__wrapper">
                   <div className="icon address__icon ">
                     <FontAwesomeIcon icon={faMapMarkedAlt}></FontAwesomeIcon>
                   </div>
                   <p className="address__text">
-                    130/26, 9 street , 9 ward, Go Vap, HCM CITY, 70000 -
+                    10/3, NGUYEN THAI BINH Street , HOA THANG, BUON MA THUOT
+                    CITY
                     <a
                       className="gmail__text"
                       href="mailto:hieuth1997@gmail.com"
@@ -59,15 +63,25 @@ function Profile(props) {
                 </div>
                 <div className="backend__wrapper flex">
                   <div className="backend__icon icon">
+                    <FontAwesomeIcon icon={faDragon}></FontAwesomeIcon>
+                  </div>
+                  <p className="backend__text">
+                    <strong>Network:</strong> I'm experienced with
+                    <strong> OSPF, BGP, MPLS ..etc</strong> on{' '}
+                    <strong>routing protocol</strong>
+                  </p>
+                </div>
+                <div className="backend__wrapper flex">
+                  <div className="backend__icon icon">
                     <FontAwesomeIcon icon={faNodeJs}></FontAwesomeIcon>
                   </div>
                   <p className="backend__text">
-                    <strong>Back-End:</strong> I'm 4 months experienced with
+                    <strong>Back-End:</strong> I'm 6 months experienced with
                     <strong>
                       {' '}
-                      Javascript, Express, MongoDb, Rest API ..etc
+                      Python, Javascript, Express, MongoDb,Docker, Rest API
+                      ..etc
                     </strong>{' '}
-                    on <strong>NodeJS</strong>
                   </p>
                 </div>
                 <div className="frontend__wrapper flex">

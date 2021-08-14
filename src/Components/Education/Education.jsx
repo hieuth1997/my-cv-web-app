@@ -28,7 +28,7 @@ function Education(props) {
             <p className="education__title">
               I graduated with a engineer degree of Network Computer and
               communications, but in Third-year student I developed my career as
-              a web developer.
+              a software Engineer.
             </p>
             <div className="desc__item">
               <div className="icon">
@@ -36,9 +36,8 @@ function Education(props) {
               </div>
               <p className="education__desc">
                 When I was a Student, My university was studied a lot of
-                knowledge in web security, HTTP method .etc I was feeling really
-                interested in web development and decided to choose Web
-                programing for my future job
+                knowledge in network, routing protocol, SDN. Besides I have many
+                knowledge web development by the internship program i joined
               </p>
             </div>
             <div className="desc__item">
@@ -57,8 +56,8 @@ function Education(props) {
               </div>
               <p className="education__desc">
                 I have received 2 encouragement scholarship &#40;1 and 2
-                semester in four years&#41; my final GPA <strong>2.8/4.</strong>{' '}
-                Besides, I have had <strong>685/990 TOEIC</strong> Certificate
+                semester in four years&#41;. My final GPA{' '}
+                <strong>2.8/4.</strong> Besides, I can use good English
               </p>
             </div>
             <div className="desc__item">

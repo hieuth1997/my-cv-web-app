@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./styles.scss";
-import { IconContext } from "react-icons";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './styles.scss';
+import { IconContext } from 'react-icons';
 import {
   DiJsBadge,
   DiNpm,
@@ -14,8 +14,9 @@ import {
   DiDotnet,
   DiHtml5,
   DiCss3,
-} from "react-icons/di";
-import { TiPin } from "react-icons/ti";
+  DiPython,
+} from 'react-icons/di';
+import { TiPin } from 'react-icons/ti';
 
 Skill.propTypes = {};
 
@@ -32,77 +33,84 @@ function Skill(props) {
             <div className="devicon">
               <ul className="icon__wrappper">
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "yellow" }}>
+                  <IconContext.Provider value={{ color: 'blue' }}>
+                    <div>
+                      <DiPython />
+                    </div>
+                  </IconContext.Provider>
+                </li>
+                <li className="icon__item">
+                  <IconContext.Provider value={{ color: 'yellow' }}>
                     <div>
                       <DiJsBadge />
                     </div>
                   </IconContext.Provider>
                 </li>
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "red" }}>
+                  <IconContext.Provider value={{ color: 'red' }}>
                     <div>
                       <DiNpm />
                     </div>
                   </IconContext.Provider>
-                </li>{" "}
+                </li>{' '}
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "green" }}>
+                  <IconContext.Provider value={{ color: 'green' }}>
                     <div>
                       <DiNodejs />
                     </div>
                   </IconContext.Provider>
-                </li>{" "}
+                </li>{' '}
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "pink" }}>
+                  <IconContext.Provider value={{ color: 'pink' }}>
                     <div>
                       <DiSass />
                     </div>
                   </IconContext.Provider>
-                </li>{" "}
+                </li>{' '}
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "blue" }}>
+                  <IconContext.Provider value={{ color: 'blue' }}>
                     <div>
                       <DiReact />
                     </div>
                   </IconContext.Provider>
-                </li>{" "}
+                </li>{' '}
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "blue" }}>
+                  <IconContext.Provider value={{ color: 'blue' }}>
                     <div>
                       <DiDocker />
                     </div>
                   </IconContext.Provider>
-                </li>{" "}
+                </li>{' '}
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "red" }}>
+                  <IconContext.Provider value={{ color: 'red' }}>
                     <div>
                       <DiHtml5 />
                     </div>
                   </IconContext.Provider>
-                </li>{" "}
+                </li>{' '}
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "blue" }}>
+                  <IconContext.Provider value={{ color: 'blue' }}>
                     <div>
                       <DiCss3 />
                     </div>
                   </IconContext.Provider>
-                </li>{" "}
+                </li>{' '}
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "black" }}>
+                  <IconContext.Provider value={{ color: 'black' }}>
                     <div>
                       <DiGit />
                     </div>
                   </IconContext.Provider>
-                </li>{" "}
+                </li>{' '}
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "blue" }}>
+                  <IconContext.Provider value={{ color: 'blue' }}>
                     <div>
                       <DiDotnet />
                     </div>
                   </IconContext.Provider>
                 </li>
                 <li className="icon__item">
-                  <IconContext.Provider value={{ color: "RED", title: "msql" }}>
+                  <IconContext.Provider value={{ color: 'RED', title: 'msql' }}>
                     <div>
                       <DiMsqlServer />
                     </div>
