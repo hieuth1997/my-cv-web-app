@@ -42,8 +42,7 @@ function Profile(props) {
                     <FontAwesomeIcon icon={faMapMarkedAlt}></FontAwesomeIcon>
                   </div>
                   <p className="address__text">
-                    10/3, NGUYEN THAI BINH Street , HOA THANG, BUON MA THUOT
-                    CITY
+                    10/3, NGUYEN THAI BINH Street, HOA THANG, BUON MA THUOT CITY
                     <a
                       className="gmail__text"
                       href="mailto:hieuth1997@gmail.com"

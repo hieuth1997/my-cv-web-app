@@ -11,7 +11,7 @@ function Experience(props) {
       name: 'Mobifone',
       link: 'https://www.mobifone.vn/',
       position: 'Network Engineer',
-      timeserving: 'March 2021 - Now',
+      timeserving: 'April 2021 - Now',
       description: [
         {
           id: 1,
@@ -19,7 +19,7 @@ function Experience(props) {
         },
         {
           id: 2,
-          text: 'Second task build some automation network system: Responsible for develop script,software for automation network system, SDN.(Private Internal.)',
+          text: 'Second task build some automation network system: Responsible for develop script,software for automation network system, SDN.',
         },
       ],
     },

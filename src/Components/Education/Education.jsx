@@ -37,7 +37,7 @@ function Education(props) {
               <p className="education__desc">
                 When I was a Student, My university was studied a lot of
                 knowledge in network, routing protocol, SDN. Besides I have many
-                knowledge web development by the internship program i joined
+                knowledge web development by the internship program I was joined
               </p>
             </div>
             <div className="desc__item">
